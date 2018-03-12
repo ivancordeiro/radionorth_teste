@@ -1,0 +1,67 @@
+
+
+.ifrBrowser{
+width:100%;
+ height:350px; 
+}
+
+
+
+/* de 1024  pra cima */
+@media only screen and (min-height: 851px) {
+
+.ifrBrowser{
+ height:950px; 
+}
+
+}
+
+
+
+
+/* 800  */
+@media only screen and (max-height: 850px) and (min-height: 701px) {
+
+.ifrBrowser{
+ height:750px; 
+}
+
+}
+
+
+
+
+/* 650  */
+@media only screen and (max-height: 700px) and (min-height: 551px) {
+
+.ifrBrowser{
+ height:580px; 
+
+}
+
+
+
+
+
+/* 480  */
+@media only screen and (max-height: 550px) and (min-height: 351px) {
+
+.ifrBrowser{
+ height:430px; 
+}
+
+}
+
+
+
+/* 320 pra baixo */
+@media only screen and (max-height: 350px) {
+
+.ifrBrowser{
+ height:270px; 
+}
+
+}
+
+
+/* 320 480 800 1024 */	
